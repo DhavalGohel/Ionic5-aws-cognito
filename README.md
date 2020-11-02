@@ -19,6 +19,13 @@ npm install -g cordova ionic
 npm install
 ```
 
+### Get AWS cognito user pool ID and client Id 
+https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-integrating-user-pools-with-identity-pools.html
+
+### Set UserPoolId & ClientID ne below Path.
+```bash 
+src/services/cognito-service.ts
+```
 ### Running the example in your browser
 ```bash
 ionic serve
